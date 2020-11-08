@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch; 
+    width: 100vw;
+    max-width: 100%;
+    padding: 2em;
+    color: #000;
+    font-weight: 600;
+    
+}
+
+.main-container:hover{
+    color: rebeccapurple;
+}
+
+.overview {
+    align-items: center;
+    margin-right: 2em;
+     
+}
+
+.sign_up {
+    align-items: center; 
+    margin-right: 2em;
+}
+
+.community {
+    margin-right: 40em;
+    align-items: center;
+    max-width: 100%;
+}
+
+.button {
+    width: 150px;
+    margin-right: 0;
+    border:none ;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #4361DF;
+    color: #fff;
+    padding: 1em;
+    font-weight: 700;
+    font-size: 1em; 
+    max-width: 100%;
+}
+
+section {
+    width: 100%; 
+    max-width: 100%;
+    background-color: #f7f7f7;
+    padding: 10px;
+    
+}
+
+h1 {
+    text-align: center;
+    font-family: 'arial';
+    font-weight: 600;
+    margin-top: 1em;
+    font-size: 3em;
+}
+
+p {
+    text-align: center;
+    color: #7B7B7B;
+    font-weight: 400;
+    font-family: 'Rubik', sans-serif;
+}
+ 
+.row {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+}
+
+.column {
+    flex: 33.33%;
+    padding: 20px;
+    margin-left: 12em; 
+}
+.column img {
+    max-width: 100%;
+}
+
+.column h4 {
+    margin-top: 1em;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+}
+
+.column button {
+    border-radius: 6px;
+    margin-top: 1em;
+    margin-left: 3em; 
+    padding: 1em;
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    justify-content: center;
+    background-color:  #4361DF;
+    border: none;
+    color: #fff;
+}
+
+/* For responsiveness*/
+
+@media only screen and (max-width: 768px) {
+   
+    .body {
+        
+        width: 100%;
+    }
+    .main-container, .button {
+        flex-direction: column;
+        background-color: orange;
+}
+    .button {
+    flex-direction: column;
+}
+    section {
+        width: 100%;
+        flex-direction: column;
+        background-color: orange;
+    }
+
+    .row {
+        width:100%;
+        flex-direction: column;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+
+  }
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width:600px) {
+    
+    .body {
+       
+        width: 100%;
+    }
+    .main-container, .button {
+        flex-direction: column;
+        background-color: rgb(117, 18, 18);
+}
+    .button {
+    flex-direction: column;
+}
+    section {
+        width: 100%;
+        flex-direction: column;
+        background-color: rgb(117, 18, 18);
+    }
+
+    .row {
+        width:100%;
+        flex-direction: column;
+    }
+
+    .column {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+    
+
