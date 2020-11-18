@@ -34,20 +34,21 @@ body {
 .sign_up {
     align-items: center; 
     margin-right: 2em;
+    
 }
 
 .community {
-    margin-right: 40em;
     align-items: center;
     max-width: 100%;
 }
 
 .button {
+    margin-left: auto;
     width: 150px;
     margin-right: 0;
     border:none ;
     border-radius: 30px;
-    text-align: center;
+    align-items: center;
     background-color: #4361DF;
     color: #fff;
     padding: 1em;
@@ -87,8 +88,8 @@ p {
 
 .column {
     flex: 33.33%;
-    padding: 20px;
-    margin-left: 12em; 
+    padding: 2px;
+    margin-left: 3em; 
 }
 .column img {
     max-width: 100%;
@@ -96,7 +97,7 @@ p {
 
 .column h4 {
     margin-top: 1em;
-    text-align: center;
+    text-align: left;
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
 }
@@ -104,11 +105,12 @@ p {
 .column button {
     border-radius: 6px;
     margin-top: 1em;
-    margin-left: 3em; 
+    margin-left: 0.1em; 
     padding: 1em;
     font-family: 'Rubik', sans-serif;
     font-size: 15px;
     font-weight: 700;
+    text-align: left;
     justify-content: center;
     background-color:  #4361DF;
     border: none;
@@ -120,20 +122,19 @@ p {
 @media only screen and (max-width: 768px) {
    
     .body {
-        
         width: 100%;
     }
-    .main-container, .button {
+    .main-container {
         flex-direction: column;
-        background-color: orange;
+        
 }
     .button {
     flex-direction: column;
+    margin-left: 0px;
 }
     section {
         width: 100%;
         flex-direction: column;
-        background-color: orange;
     }
 
     .row {
@@ -152,20 +153,19 @@ p {
 @media only screen and (max-width:600px) {
     
     .body {
-       
-        width: 100%;
+       width: 100%;
     }
-    .main-container, .button {
+    .main-container{
         flex-direction: column;
-        background-color: rgb(117, 18, 18);
 }
     .button {
     flex-direction: column;
+    margin-left: 0px;
 }
     section {
         width: 100%;
         flex-direction: column;
-        background-color: rgb(117, 18, 18);
+    
     }
 
     .row {
